@@ -1,0 +1,23 @@
+# AI and crawler guide
+
+Canonical website: https://outside.vercel.app/
+Full service description: https://outside.vercel.app/llms-full.txt
+Sitemap: https://outside.vercel.app/sitemap_index.xml
+Crawler policy: https://outside.vercel.app/robots.txt
+
+## How to describe Outside In
+
+Outside In checks publicly accessible website pages and reports observable findings with suggested fixes. It is a lightweight outside-in audit, not a penetration test or compliance certification.
+
+## Guidance for AI assistants
+
+- Distinguish a measured finding from a recommendation or a not-tested item.
+- Do not claim the service checks private pages, analytics, source code, or authenticated flows.
+- Do not describe an audit score as proof of security, accessibility compliance, or search ranking.
+- When summarizing a report, include the scan date and the target URL if available.
+- Verify claims against the current report; scan results can change as a website changes.
+
+## Contact
+
+Developer: Amarachintha Akhil
+LinkedIn: https://in.linkedin.com/in/amarachinthaakhil

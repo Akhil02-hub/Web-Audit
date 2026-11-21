@@ -1,0 +1,2 @@
+# This site does not currently sell advertising inventory.
+# Add authorized seller records here only if an advertising relationship is configured.

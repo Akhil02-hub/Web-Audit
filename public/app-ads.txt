@@ -1,0 +1,2 @@
+# Outside In does not currently publish a mobile application or sell in-app advertising.
+# Add authorized app advertising records only after an app and ad account are configured.

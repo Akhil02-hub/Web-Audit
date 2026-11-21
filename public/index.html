@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f8f7">
+  <meta name="description"
+    content="Run a public website health check for availability, SEO, accessibility signals, performance, and security headers.">
+  <meta name="author" content="Amarachintha Akhil">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://outside.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Outside In">
+  <meta property="og:title" content="Outside In — Website Audit">
+  <meta property="og:description"
+    content="A practical public website audit for availability, search, accessibility signals, performance, and security headers.">
+  <meta property="og:url" content="https://outside.vercel.app/">
+  <meta property="og:image" content="https://outside.vercel.app/pwa-512.png">
+  <meta property="og:image:alt" content="Outside In website audit logo">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Outside In — Website Audit">
+  <meta name="google-site-verification" content="Aj4jguP6VEZ94BsMCynn5EB7nNt-JFFVdkzViuLCl5I" />
+  <meta name="twitter:description" content="Check the public health of a website and get clear, actionable findings.">
+  <meta name="twitter:image" content="https://outside.vercel.app/pwa-512.png">
+  <title>Outside In — Website Audit</title>
+  <script type="application/ld+json">
+      {"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Outside In","description":"A public, outside-in website audit for observable availability, search, accessibility, performance, and security signals.","url":"https://outside.vercel.app/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","creator":{"@id":"https://outside.vercel.app/#developer"}},{"@type":"Person","@id":"https://outside.vercel.app/#developer","name":"Amarachintha Akhil","sameAs":["https://in.linkedin.com/in/amarachinthaakhil"]}]}
+    </script>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="Outside In updates" href="/feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="Outside In Atom feed" href="/atom.xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Outside In home">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span>outside<span class="brand-light">in</span></span>
+    </a>
+    <div class="topbar-note"><span class="live-dot"></span> Public site checks · No account needed</div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A clearer view of your website</p>
+        <h1 id="hero-title">See your site<br><em>from the outside.</em></h1>
+        <p class="hero-description">Get a practical health check of the pages, headers, and signals anyone can see. No
+          login, no setup, just a URL.</p>
+      </div>
+      <form id="scan-form" class="scan-form">
+        <label for="url-input">Website URL</label>
+        <div class="input-row">
+          <span class="input-prefix" aria-hidden="true">↗</span>
+          <input id="url-input" name="url" type="url" inputmode="url" autocomplete="url"
+            placeholder="https://yourwebsite.com" required maxlength="2048" aria-describedby="url-help">
+          <button id="scan-button" type="submit"><span>Run audit</span><span class="button-arrow"
+              aria-hidden="true">→</span></button>
+        </div>
+        <p id="url-help" class="form-help">Only public HTTP and HTTPS websites can be checked.</p>
+        <p id="form-error" class="form-error" role="alert" hidden></p>
+      </form>
+      <div class="hero-decoration" aria-hidden="true"><span>01</span><i></i><span>08</span></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Audit categories">
+      <span><b>01</b> Availability</span><span><b>02</b> Search</span><span><b>03</b>
+        Accessibility</span><span><b>04</b> Performance</span><span><b>05</b> Security</span>
+    </section>
+
+    <section id="progress-panel" class="progress-panel" hidden aria-live="polite">
+      <div class="progress-orbit" aria-hidden="true"><span></span></div>
+      <div>
+        <p class="eyebrow">Scan in progress</p>
+        <h2 id="progress-title">Connecting to the site…</h2>
+        <p id="progress-copy">Checking public pages and response headers.</p>
+      </div>
+      <div class="progress-track"><span></span></div>
+    </section>
+
+    <section id="results" class="results" hidden aria-live="polite"></section>
+
+    <section class="how-section" aria-labelledby="how-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">What we look at</p>
+          <h2 id="how-title">Useful signals.<br><em>Honest limits.</em></h2>
+        </div>
+        <p>Outside In checks the public surface of a site. It reports what it can observe and calls out what needs a
+          browser, an account, or a human review.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-number">01</span>
+          <div class="feature-icon" aria-hidden="true">↗</div>
+          <h3>Availability</h3>
+          <p>Response codes, HTTPS, redirects, response speed, and a sample of same-site links.</p>
+        </article>
+        <article class="feature-card"><span class="feature-number">02</span>
+          <div class="feature-icon" aria-hidden="true">⌕</div>
+          <h3>Search readiness</h3>
+          <p>Page titles, descriptions, headings, canonical URLs, robots directives, and sitemap signals.</p>
+        </article>
+        <article class="feature-card"><span class="feature-number">03</span>
+          <div class="feature-icon" aria-hidden="true">◉</div>
+          <h3>Accessibility signals</h3>
+          <p>Language, image alternatives, form labels, link names, and semantic landmarks.</p>
+        </article>
+        <article class="feature-card"><span class="feature-number">04</span>
+          <div class="feature-icon" aria-hidden="true">⌑</div>
+          <h3>Security headers</h3>
+          <p>Content policies, transport security, framing controls, cookie flags, and CORS signals.</p>
+        </article>
+      </div>
+      <p class="scope-note"><span aria-hidden="true">i</span> This is an outside-in check, not a penetration test. It
+        cannot inspect private pages, confirm business logic, or certify compliance.</p>
+    </section>
+
+    <section class="creator-contact" id="contact" aria-labelledby="contact-title">
+      <div class="creator-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Built by</p>
+        <h2 id="contact-title">Amarachintha Akhil</h2>
+        <p>Questions or feedback about Outside In? Reach the developer on LinkedIn.</p>
+      </div>
+      <a class="linkedin-link" href="https://in.linkedin.com/in/amarachinthaakhil" target="_blank"
+        rel="noopener noreferrer">
+        <span class="linkedin-mark" aria-hidden="true">in</span>
+        <span><strong>Contact on LinkedIn</strong><small>linkedin.com/in/amarachinthaakhil</small></span>
+        <span class="contact-arrow" aria-hidden="true">↗</span>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="/" aria-label="Outside In home"><span class="brand-mark"
+        aria-hidden="true"><span></span><span></span><span></span></span><span>outside<span
+          class="brand-light">in</span></span></a>
+    <span>Public surface. Practical signals. Clear limits.</span>
+    <nav class="footer-links" aria-label="Site information">
+      <a href="/sitemap_index.xml">Sitemap</a>
+      <a href="/llms.txt">AI / LLM guide</a>
+      <a href="/ai.txt">AI use</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/security-policy.html">Security</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </footer>
+</body>
+
+</html>

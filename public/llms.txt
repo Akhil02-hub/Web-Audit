@@ -1,0 +1,28 @@
+# Outside In
+
+> Outside In is a public, outside-in website audit tool. It checks public pages for availability, basic search metadata, accessibility signals, performance indicators, and common security headers.
+
+## About this service
+
+Enter a public HTTP or HTTPS URL to receive a report with measured findings, summaries, and suggested fixes. Scans are limited to a small same-site page sample and do not require an account on the target site.
+
+## Important limitations
+
+- Outside In is not a penetration test, compliance certification, or guarantee of security.
+- It cannot inspect private pages, accounts, internal analytics, server source code, or business transactions.
+- Browser-rendered checks such as Core Web Vitals, visual contrast, and keyboard interaction may be marked as not tested.
+- A result describes a point-in-time public scan. Recommendations are guidance and should be reviewed before making changes.
+
+## Public resources
+
+- [Website audit](https://outside.vercel.app/): enter a URL and review its report.
+- [AI and crawler guide](https://outside.vercel.app/ai.txt): guidance for AI assistants and automated readers.
+- [Full AI and crawler guide](https://outside.vercel.app/llms-full.txt): detailed service description.
+- [Sitemap](https://outside.vercel.app/sitemap_index.xml): public page index.
+- [Robots policy](https://outside.vercel.app/robots.txt): all crawlers are allowed to request public paths.
+- [Privacy information](https://outside.vercel.app/privacy.html): how submitted scan URLs are handled.
+- [Security disclosure policy](https://outside.vercel.app/security-policy.html): how to report a security concern.
+
+## Developer and contact
+
+Developer: Amarachintha Akhil. [Contact on LinkedIn](https://in.linkedin.com/in/amarachinthaakhil).

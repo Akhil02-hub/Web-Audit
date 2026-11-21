@@ -1,0 +1,6 @@
+Outside In — Website Audit
+
+Created and maintained by Amarachintha Akhil.
+Contact: https://in.linkedin.com/in/amarachinthaakhil
+
+The website uses open-source dependencies listed in package.json and package-lock.json. Their respective licenses remain with their authors.

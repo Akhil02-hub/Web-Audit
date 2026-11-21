@@ -1,0 +1,6 @@
+Outside In change log
+
+2026-11-21
+- Set the canonical site origin to https://outside.vercel.app.
+- Added crawler, AI discovery, privacy, security, PWA, feed, and deployment resources.
+- Added Vercel serverless API handlers for the audit and health endpoints.

@@ -1,0 +1,6 @@
+Outside In website content and original source code
+Copyright (c) 2026 Amarachintha Akhil.
+
+No separate open-source license is granted by this file. Unless a specific license is added to a file or repository, permission to reuse the original content and source code is not implied. Third-party dependencies retain their own licenses.
+
+The site's TDMRep resource currently sets tdm-reservation to 0 for pages on this origin. That machine-readable signal says the site operator is not reserving text and data mining rights for those pages; it does not change rights in third-party content.

@@ -1,0 +1,40 @@
+# Outside In — Full service guide for AI and automated readers
+
+Canonical site: https://outside.vercel.app/
+Developer: Amarachintha Akhil
+Contact: https://in.linkedin.com/in/amarachinthaakhil
+Last updated: 2026-11-21
+
+## What this website does
+
+Outside In is a public website audit tool. A visitor submits a public HTTP or HTTPS URL, and the service checks a limited sample of pages from that site's public surface. It reports observable availability, search metadata, basic accessibility signals, performance indicators, and common HTTP security headers. The report includes findings and suggested fixes.
+
+## Scope and limits
+
+- Scans require no account on the target website and do not access private pages.
+- The scanner limits the number of pages, links, bytes, redirects, and time spent per scan.
+- It rejects local and private network destinations and follows only a small same-origin page sample.
+- Browser-only measurements such as Core Web Vitals, rendered color contrast, keyboard behavior, and JavaScript-only interactions are not verified by this lightweight scanner.
+- A report is a point-in-time observation. It is not a penetration test, security certification, accessibility conformance report, legal opinion, or guarantee of search ranking.
+- A score is a summary of the checks that ran, not a complete quality measure.
+
+## Guidance for summaries
+
+Describe results as observed checks and recommendations. Preserve the target URL and scan time where available. Say when a check was not tested. Do not infer that a passing result proves security, legal compliance, WCAG conformance, or future availability. Recommendations should be reviewed before being applied to a target site.
+
+## Public discovery files
+
+- Homepage: https://outside.vercel.app/
+- Sitemap index: https://outside.vercel.app/sitemap_index.xml
+- Sitemap: https://outside.vercel.app/sitemap.xml
+- Crawler preferences: https://outside.vercel.app/robots.txt
+- Short AI guide: https://outside.vercel.app/llms.txt
+- AI and crawler guide: https://outside.vercel.app/ai.txt
+- Privacy: https://outside.vercel.app/privacy.html
+- Security disclosure policy: https://outside.vercel.app/security-policy.html
+- RSS feed: https://outside.vercel.app/feed.xml
+- JSON Feed: https://outside.vercel.app/feed.json
+
+## Developer
+
+Amarachintha Akhil maintains this project. Contact: https://in.linkedin.com/in/amarachinthaakhil

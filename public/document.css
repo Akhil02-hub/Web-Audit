@@ -1,0 +1,15 @@
+.document-page{max-width:780px;margin:78px auto 100px;padding:0 24px;color:#52645a}
+.document-page h1,.error-page h1{font:700 clamp(40px,7vw,68px)/1.02 var(--display);letter-spacing:-.065em;color:var(--green);margin:0 0 24px}
+.document-page h2{font:700 20px var(--display);color:var(--green);margin:38px 0 10px}
+.document-page p{font-size:14px;line-height:1.8}
+.document-page a,.text-link{color:#2c745b;text-underline-offset:3px}
+.document-lead{font-size:18px!important;color:#65736c}
+.document-updated{margin-top:42px;color:#89958e;font:10px var(--mono)}
+.error-page{max-width:760px;margin:18vh auto;padding:0 24px;color:#65736c}
+.error-page p{font-size:15px;line-height:1.7;max-width:520px}
+.error-link{display:inline-flex;align-items:center;margin:16px 12px 0 0;padding:12px 16px;border-radius:6px;background:var(--green);color:#fff;text-decoration:none;font-size:12px}
+.error-link.secondary{background:#e4eee6;color:var(--green)}
+.topbar>.text-link{text-decoration:none;font-size:12px}
+footer>a:not(.brand){color:#66766c;text-decoration:none;font:10px var(--mono)}
+footer>a:not(.brand):hover{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:600px){.document-page{margin-top:54px}.document-page h1,.error-page h1{font-size:44px}.document-page p{font-size:13px}}

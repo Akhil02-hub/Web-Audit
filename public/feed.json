@@ -1,0 +1,22 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Outside In — Website Audit",
+  "home_page_url": "https://outside.vercel.app/",
+  "feed_url": "https://outside.vercel.app/feed.json",
+  "description": "Updates to the Outside In public website audit service.",
+  "authors": [
+    {
+      "name": "Amarachintha Akhil",
+      "url": "https://in.linkedin.com/in/amarachinthaakhil"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://outside.vercel.app/",
+      "url": "https://outside.vercel.app/",
+      "title": "Outside In discovery and privacy resources",
+      "content_text": "Updated crawler access, AI discovery, privacy, security, and offline support.",
+      "date_published": "2026-11-21T00:00:00Z"
+    }
+  ]
+}

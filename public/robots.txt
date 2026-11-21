@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://outside.vercel.app/sitemap_index.xml

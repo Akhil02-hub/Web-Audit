@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Outside In — Website Audit</title>
+    <link>https://outside.vercel.app/</link>
+    <description>Updates to the Outside In public website audit service.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Outside In discovery and privacy resources</title>
+      <link>https://outside.vercel.app/</link>
+      <guid isPermaLink="true">https://outside.vercel.app/</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Updated crawler access, AI discovery, privacy, security, and offline support.</description>
+    </item>
+  </channel>
+</rss>

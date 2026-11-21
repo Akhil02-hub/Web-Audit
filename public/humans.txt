@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: Amarachintha Akhil
+Contact: https://in.linkedin.com/in/amarachinthaakhil
+Site: https://outside.vercel.app/
+
+/* SITE */
+Name: Outside In — Website Audit
+Purpose: Public, outside-in website checks with actionable findings.
+Technology: TypeScript, Node.js, HTML, CSS, JavaScript.
+Standards: HTML, JSON-LD, sitemap protocol, robots exclusion protocol.
