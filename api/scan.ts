@@ -1,6 +1,8 @@
 import { ScanError } from "../src/safe-url.ts";
 import { scanWebsite } from "../src/scanner.ts";
 
+export const runtime = "nodejs";
+
 const jsonHeaders = {
   "Cache-Control": "no-store",
   "Content-Type": "application/json; charset=utf-8",

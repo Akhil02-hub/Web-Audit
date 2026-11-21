@@ -104,7 +104,15 @@ form.addEventListener("submit", async (event) => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ url: input.value.trim() })
     });
-    const payload = await response.json();
+    const responseText = await response.text();
+    let payload;
+    try {
+      payload = JSON.parse(responseText);
+    } catch {
+      throw new Error(response.ok
+        ? "The audit returned an invalid response. Please try again."
+        : `The audit server returned an error (${response.status}). Please try again.`);
+    }
     if (!response.ok) throw new Error(payload.error || "The audit could not be completed.");
     renderReport(payload);
   } catch (error) {

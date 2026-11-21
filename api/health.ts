@@ -1,5 +1,7 @@
 import { auditConfig } from "../src/config.ts";
 
+export const runtime = "nodejs";
+
 const headers = {
   "Cache-Control": "no-store",
   "Content-Type": "application/json; charset=utf-8",
