@@ -1,7 +1,7 @@
 /* TEAM */
 Developer: Amarachintha Akhil
 Contact: https://in.linkedin.com/in/amarachinthaakhil
-Site: https://outside.vercel.app/
+Site: https://web-outside.vercel.app/
 
 /* SITE */
 Name: Outside In — Website Audit

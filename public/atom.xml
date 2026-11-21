@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Outside In — Website Audit</title>
-  <id>https://outside.vercel.app/</id>
-  <link href="https://outside.vercel.app/" rel="alternate"/>
+  <id>https://web-outside.vercel.app/</id>
+  <link href="https://web-outside.vercel.app/" rel="alternate"/>
   <updated>2026-11-21T00:00:00Z</updated>
   <author><name>Amarachintha Akhil</name><uri>https://in.linkedin.com/in/amarachinthaakhil</uri></author>
   <entry>
     <title>Outside In discovery and privacy resources</title>
-    <id>https://outside.vercel.app/</id>
-    <link href="https://outside.vercel.app/"/>
+    <id>https://web-outside.vercel.app/</id>
+    <link href="https://web-outside.vercel.app/"/>
     <updated>2026-11-21T00:00:00Z</updated>
     <summary>Updated crawler access, AI discovery, privacy, security, and offline support.</summary>
   </entry>

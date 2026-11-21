@@ -1,5 +1,5 @@
-Contact: https://outside.vercel.app/#contact
-Policy: https://outside.vercel.app/security-policy.html
-Canonical: https://outside.vercel.app/.well-known/security.txt
+Contact: https://web-outside.vercel.app/#contact
+Policy: https://web-outside.vercel.app/security-policy.html
+Canonical: https://web-outside.vercel.app/.well-known/security.txt
 Preferred-Languages: en
 Expires: 2027-11-21T00:00:00.000Z

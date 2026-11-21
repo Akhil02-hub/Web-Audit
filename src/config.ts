@@ -33,7 +33,7 @@ export const port = readInteger("PORT", 4173, 1, 65535);
 
 function readSiteUrl(): string {
   const configured = process.env.SITE_URL?.trim();
-  if (!configured) return "https://outside.vercel.app";
+  if (!configured) return "https://web-outside.vercel.app";
   try {
     const url = new URL(configured);
     if ((url.protocol !== "http:" && url.protocol !== "https:") || url.username || url.password || url.pathname !== "/" || url.search || url.hash) {
@@ -41,7 +41,7 @@ function readSiteUrl(): string {
     }
     return url.origin;
   } catch {
-    throw new Error("SITE_URL must be an HTTP or HTTPS origin, such as https://outside.vercel.app");
+    throw new Error("SITE_URL must be an HTTP or HTTPS origin, such as https://web-outside.vercel.app");
   }
 }
 

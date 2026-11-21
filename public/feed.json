@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Outside In — Website Audit",
-  "home_page_url": "https://outside.vercel.app/",
-  "feed_url": "https://outside.vercel.app/feed.json",
+  "home_page_url": "https://web-outside.vercel.app/",
+  "feed_url": "https://web-outside.vercel.app/feed.json",
   "description": "Updates to the Outside In public website audit service.",
   "authors": [
     {
@@ -12,8 +12,8 @@
   ],
   "items": [
     {
-      "id": "https://outside.vercel.app/",
-      "url": "https://outside.vercel.app/",
+      "id": "https://web-outside.vercel.app/",
+      "url": "https://web-outside.vercel.app/",
       "title": "Outside In discovery and privacy resources",
       "content_text": "Updated crawler access, AI discovery, privacy, security, and offline support.",
       "date_published": "2026-11-21T00:00:00Z"

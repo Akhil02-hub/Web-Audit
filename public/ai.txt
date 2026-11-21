@@ -1,9 +1,9 @@
 # AI and crawler guide
 
-Canonical website: https://outside.vercel.app/
-Full service description: https://outside.vercel.app/llms-full.txt
-Sitemap: https://outside.vercel.app/sitemap_index.xml
-Crawler policy: https://outside.vercel.app/robots.txt
+Canonical website: https://web-outside.vercel.app/
+Full service description: https://web-outside.vercel.app/llms-full.txt
+Sitemap: https://web-outside.vercel.app/sitemap_index.xml
+Crawler policy: https://web-outside.vercel.app/robots.txt
 
 ## How to describe Outside In
 

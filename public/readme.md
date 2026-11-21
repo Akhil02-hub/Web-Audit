@@ -1,6 +1,6 @@
 # Outside In — Website Audit
 
-Canonical website: https://outside.vercel.app/
+Canonical website: https://web-outside.vercel.app/
 
 Outside In checks a small sample of pages that are publicly accessible without signing in. It reviews availability, page metadata, basic accessibility signals, performance indicators, and common security headers, then returns findings with practical suggestions.
 
@@ -13,13 +13,13 @@ Outside In checks a small sample of pages that are publicly accessible without s
 
 ## Public resources
 
-- Homepage: https://outside.vercel.app/
-- Sitemap: https://outside.vercel.app/sitemap_index.xml
-- Crawler policy: https://outside.vercel.app/robots.txt
-- AI guide: https://outside.vercel.app/llms.txt
-- Full AI guide: https://outside.vercel.app/llms-full.txt
-- Privacy: https://outside.vercel.app/privacy.html
-- Security policy: https://outside.vercel.app/security-policy.html
+- Homepage: https://web-outside.vercel.app/
+- Sitemap: https://web-outside.vercel.app/sitemap_index.xml
+- Crawler policy: https://web-outside.vercel.app/robots.txt
+- AI guide: https://web-outside.vercel.app/llms.txt
+- Full AI guide: https://web-outside.vercel.app/llms-full.txt
+- Privacy: https://web-outside.vercel.app/privacy.html
+- Security policy: https://web-outside.vercel.app/security-policy.html
 
 ## Developer
 
